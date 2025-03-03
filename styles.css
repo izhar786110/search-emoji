@@ -1,0 +1,47 @@
+
+
+.emoji{
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+#mode {
+    width: 110px;
+    height: 3.5rem;
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px;
+    position: relative;
+    
+    transform: scale(0.5);
+  }
+  
+  svg {
+    width: 32px;
+  }
+  i {
+    font-size: 32px;
+    color: #fdde03;
+  }
+  #hider {
+      width: 3.2rem;
+      height: 3.2rem;
+      border-radius: 50%;
+      background-color: #fff;
+      position: absolute;
+      transition: all 0.5s ease;
+  }
+  .right-move{
+      transform: translateX(101%);
+  }
+  
+  .dark-mode{
+      background-color: #212121;
+      color: #fff;
+  }
+  
+  
+  
